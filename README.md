@@ -27,3 +27,19 @@ Install on Ubuntu:
 ```bash
 sudo apt update
 sudo apt install g++ make libmysqlclient-dev mysql-server
+
+
+MySQL Server commands : 
+sudo service mysql start
+mysql -u root -p
+USE kvdb;
+SELECT * FROM kv_store;
+
+
+
+Build : 
+make
+./bin/kv_server
+
+Load generator : 
+./bin/loadgen --clients 5 --duration 20 --workload get_popular
