@@ -15,13 +15,16 @@ This project implements:
 - `utils.cpp/h` - utility helpers (timing, socket helpers).
 - `load_generator.cpp` - load generator client program.
 - `Makefile` - build.
-- `schema.sql` - SQL DDL to create `kv_store` table in MySQL.
 
 ## Prerequisites
 - Linux (Ubuntu/Debian)
 - g++
 - mysql-server
 - libmysqlclient-dev
+  
+Architecture Diagram :
+<img width="638" height="2048" alt="image" src="https://github.com/user-attachments/assets/a4537cb2-5045-44f6-9149-b4c2800f1b22" />
+
 
 Important Commands:
 ```bash
